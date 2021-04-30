@@ -1,0 +1,98 @@
+
+/* MENU */
+
+.menu{
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.menu-sub{
+	display: flex;
+	width: 100%;
+	margin-top: -9px;
+}
+
+.drop-menu{
+	font-size: 12px;
+	font-weight: bold;
+	width: 14%;
+	margin: 10px 0px;
+	border: 0px;
+	height: 50px;
+	background: linear-gradient(to bottom,  #dddddd 49%,#a3a3a3 55%,#a3a3a3 55%,#d8d8d8 100%); 
+	border-left: solid 2px #68696b;
+}
+
+.drop-menu:nth-child(3){
+	width: 17%;
+}
+
+.drop-menu:first-child{
+	border: none;
+}
+
+.drop-menu-sub {
+	width: 14%;
+
+}
+
+.drop-menu-sub:nth-child(3){
+	width: 17%;
+}
+
+.drop-menu-list{
+	position: absolute;
+	z-index: 99;
+	display: none;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+	background: linear-gradient(45deg,  rgba(216,216,216,1) 2%,rgba(255,255,255,1) 57%); 
+	padding: 10px;
+	border-radius: 0px;
+}
+
+
+.drop-menu:hover{
+	background-image: 
+  	radial-gradient(circle closest-side at 50% 2000%, #F00 92%, #FFF 94%, #FFF 97%, #da1f28 98%);
+  	color: white;
+  	transition: 0.2s ease-in;
+}
+
+.drop-menu.ativo{
+	background-image: 
+  	radial-gradient(ellipse farthest-corner at 50% 0%, #ed1d35 20%, #eb5056 80%, #da1f28 80%);
+  	color: white;
+  	transition: 0.2s ease-in;
+}
+
+.sub-menu-link {
+	list-style: none;
+	border: 2px dotted red;
+}
+
+.sub-menu-link p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0!important;
+	font-family: arial;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.sub-menu-link p:hover{
+	background: #da1f28;
+	transition: 0.2s ease-in;
+}
+
+.sub-menu-link p a{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.sub-menu-link p:hover a{
+	color: white;
+	transition: 0.2s ease-in;
+}

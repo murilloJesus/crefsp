@@ -1,0 +1,311 @@
+/* MEDIAS DESKTOP */
+@media only screen and (max-width: 1200px) {
+    .header-link {
+        font-size: 10px;
+    }
+    .box-event i {
+        left: 125px;
+    }
+
+    .acesso-rapido-lg .seemore {
+        display: block;
+    }
+
+    .itens-rapido {
+        width: 832px;
+    }
+    #nome_pagina {
+        max-width: 500px;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        width: 100% !important;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .drop-menu {
+        font-size: 12px;
+    }
+    .header-link {
+        font-size: 9px;
+    }
+    .box-event i {
+        left: 180px;
+    }
+
+    .itens-rapido {
+        width: 555px;
+    }
+}
+
+/* MEDIAS MOBILE */
+
+@media only screen and (max-width: 767px) {
+    #nome_pagina {
+        max-width: 200px;
+        text-align: left;
+    }
+
+    .list-videos {
+        height: 320px;
+        position: relative;
+        top: 75px;
+    }
+
+    .hide-mobile {
+        display: none;
+    }
+
+    .roll {
+        width: 50px;
+        height: 50px;
+        right: 48%;
+    }
+
+    .up {
+        font-size: 3em;
+    }
+
+    .drop-menu {
+        font-size: 12px;
+    }
+
+    .notfound {
+        margin: 20px auto;
+    }
+    .notfound h1 {
+        font-size: 35px !important;
+    }
+    .notfound b {
+        font-size: 35px !important;
+    }
+    .holderdatetimeagenda {
+        width: 100%;
+    }
+
+    /*header*/
+    .header-lg {
+        display: none;
+    }
+
+    /*menu*/
+    .menu-lg {
+        display: none;
+    }
+
+    /*breadcrumbs*/
+    .breadcrumbs-lg {
+        display: none;
+    }
+
+    /*carousel*/
+    #carouselExampleIndicators {
+        max-height: 200px;
+    }
+
+    /*noticia*/
+    #list-noticias {
+        position: relative;
+        height: 260px;
+    }
+    .chamada-noticia {
+        font-size: 12px;
+        line-height: 1.1;
+    }
+
+    .noticia:nth-child(5) {
+        display: none;
+    }
+
+    .noticia:nth-child(6) {
+        display: none;
+    }
+
+    .noticia:nth-child(7) {
+        display: none;
+    }
+
+    /*event*/
+    #list-eventos {
+        position: relative;
+        height: 260px;
+        top: 55px;
+    }
+
+    .event-lg {
+        display: none;
+        width: 100%;
+        overflow: scroll;
+        max-height: 230px;
+    }
+
+    #view-method-event {
+        display: block;
+    }
+
+    #agenda {
+        display: block;
+    }
+
+    #calendario {
+        width: 100% !important;
+    }
+
+    #calendario div {
+        margin: 10px auto;
+    }
+
+    .horario {
+        margin: 5px;
+    }
+
+    /*event categoria*/
+
+    .cat-event-lg {
+        width: 100%;
+    }
+
+    .box-event {
+        height: 80px;
+        margin: 10px 4%;
+        width: 40%;
+        float: left;
+    }
+
+    .box-event i {
+        display: none;
+    }
+
+    /* midia */
+
+    .holderelementotexto {
+        margin: 0px 10px;
+        flex-direction: column;
+    }
+
+    .folder-header {
+        margin: 0px;
+        flex: 1;
+    }
+
+    .video-box {
+        width: 50%;
+    }
+
+    .video-box:nth-child(3) {
+        display: none;
+    }
+
+    .video-box:nth-child(4) {
+        display: none;
+    }
+
+    /*footer*/
+    .info {
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        width: 100%;
+    }
+
+    .footer-lg .container {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+
+    /* config */
+    .fix-mapping-mobile {
+        display: none;
+    }
+
+    .mobile-head {
+        display: block;
+    }
+
+    .mobile-size {
+        display: block;
+    }
+
+    /* TABELA LICITAÇÔES*/
+    .mb-table th,
+    .mb-table td {
+        min-width: 100%;
+        padding: 10px;
+    }
+
+    .box-table {
+        display: none;
+    }
+
+    .mb-table {
+        display: block;
+    }
+
+    /*multimidia*/
+    #view-method {
+        display: none;
+    }
+
+    .folder {
+        display: none;
+    }
+
+    .list {
+        display: block;
+    }
+
+    .folder-content {
+        width: 100% !important;
+    }
+
+    .itens-rapido {
+        width: 416px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .roll {
+        width: 50px;
+        height: 50px;
+        right: 45%;
+    }
+
+    .up {
+        font-size: 3em;
+    }
+
+    .itens-rapido {
+        width: 278px;
+    }
+
+    .box-eventos .row-eventos .box-eventos {
+        height: 560px;
+        flex-direction: column;
+    }
+
+    .box-eventos .titulo-destaque,
+    .box-eventos .categoria-destaque {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .roll {
+        width: 50px;
+        height: 50px;
+        right: 40%;
+    }
+
+    .up {
+        font-size: 3em;
+    }
+
+    .itens-rapido {
+        justify-content: space-around;
+    }
+}

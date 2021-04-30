@@ -1,0 +1,501 @@
+/* all */
+	#template{
+		display: none;
+	}
+
+	ol{
+		padding: 0px;
+	}
+
+	.conteudo-lg{
+		width: 100%;
+		min-height: 420px;
+		margin: 10px 0;
+		padding-bottom: 20px;
+		text-align: left;
+	}
+	.conteudo-lg .titulo{
+		width: 100%;
+		border-bottom: 2px solid #6c6d72;
+		color: #6c6d72;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 18px;
+		padding-bottom: 5px;
+		margin: 10px 0;
+		text-align: left;
+		display: none;
+	}
+	.conteudo-lg .noticiasholder{
+		width: 100%;
+	}
+	.conteudo-lg .noticiasholder .noticia{
+		display: flex;
+		border-bottom: 0.5px solid #cccccc;
+		color: #666769;
+		font-family: arial;
+		font-weight: normal;
+		font-size: 15px;
+		padding: 5px 0 5px 3px;
+		align-items: center;
+	}
+	.conteudo-lg .noticiasholder .noticia:hover{
+		color: #db2429;
+	}
+	.conteudo-lg .noticiasholder .noticia .data{
+		color: #db2429;
+		font-weight: bold;
+		margin: 0 5px;
+		font-size: 15px;
+	}
+	.holderboxes{
+		width: 100%;
+	}
+	.holderboxes .box{
+		width: 100%;
+		padding: 20px;
+		background: #fff;
+		border: solid 3px #6c6d72;
+		-moz-box-shadow: 0 0 7px #ccc;
+	    -webkit-box-shadow: 0 0 7px #ccc;
+		box-shadow: 0 0 7px #ccc;
+		color: #6c6d72;
+	}
+	.titulobox{
+		width: 100%;
+		color: #6c6d72;
+		font-family: arial;
+		font-weight: bold;
+		font-size: 18px;
+		margin: 10px 0 5px 0;
+	}
+	.titulobox i{
+		color: #db2429;
+		margin-right: 5px;
+	}
+	.noticiatitulo i{
+		font-size: 11px;
+	}
+	.noticiatitulo i:last-child{
+		margin-left: -3px;
+	}
+
+/* Texto */
+	.holderelementotexto{
+		display: flex;
+		/* flex-wrap: wrap; */
+		padding-bottom: 10px;
+	}
+	.textoelemento {
+		text-align: justify;
+		color: #6c6d72;
+		font-size: 14px;
+		margin: 0 10px;
+	}
+
+	.textoelemento.left {
+		text-align: left;
+	}
+
+	.textoelemento.center {
+		text-align: center;
+	}
+
+	.textoelemento.right {
+		text-align: right;
+	}
+
+/* Noticia */
+	.holderelementonoticia{
+		width: 100%;
+	}
+	.titulonoticia{	
+		font-size: 44px;
+		font-weight: bold;
+		color: #000;
+		padding-bottom: 30px;
+	}
+	.subtitulonoticia{
+		font-size: 21px;
+		color: #6c6d72;
+		padding-bottom: 30px;
+	}
+	.holderlogiconesnoticia{
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		padding-bottom: 10px;
+		border-bottom: 2px solid #6c6d72;
+		margin-bottom: 10px;
+	}
+	.lognoticia{
+		font-size: 12px;
+		color: #6c6d72;
+		
+	}
+	.iconescompartilharnoticia{
+		width: 15%;
+		display: flex;
+		justify-content: space-between;
+	}
+	.iconescompartilharnoticia a{
+		color: #d2251f;
+		font-size: 22px;
+		
+	}
+	.whatsappcolor{
+		color: #25d366!important;
+	}
+	.facebookcolor{
+		color: #3b5998!important;
+	}
+	.facebookbackcolor{
+		background: #3b5998!important;
+	}
+	.twittercolor{
+		color: #1da1f2!important;
+	}
+	.twitterbackcolor{
+		background: #1da1f2!important;
+	}
+	.likedincolor{
+		color: #0077b5!important;
+	}
+	.youtubebackcolor{
+		background: #ff0000!important;
+	}
+	.instagrambackcolor{
+		background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%)!important;;
+	}
+	.rssbackcolor{
+		background: #f26522!important;
+	}
+	.capanoticia{
+		background-image: url('../img/carousel.jpg');
+	    background-size: cover;
+	    margin: auto;
+	    width: 70%;
+	    height: 300px;
+	}
+	.descricaoimagemnoticia{
+		width: 70%;
+		margin: auto;
+		font-size: 14px;
+		
+		padding: 15px 0 40px 0;
+	}
+	.textonoticia{
+		text-align: justify;
+		color: #000;
+		font-size: 18px;
+	    margin: auto;
+	    width: 90%;
+	    padding-bottom: 40px;
+	}
+	.tituloimagemnoticia{
+		font-size: 30px;
+		font-weight: bold;
+		width: 70%;
+		margin: auto;
+		padding-bottom: 25px;
+	}
+	.imagemnoticia{
+		background-image: url('../img/carousel.jpg');
+	    background-size: cover;
+	    margin: auto;
+	    width: 70%;
+	    height: 300px;
+	}
+	.tags{
+		display: flex;
+		width: 50%;
+	}
+	.tag{
+		background: #ccc;
+	    margin-left: 15px;
+	    padding: 5px 10px;
+	    border-radius: 5px;
+	    font-size: 12px;
+	    
+	}
+
+/* Banner */
+	#bannerelementos .arrowholder{
+		background: #da1f28;
+		border-radius: 50%;
+		width: 40px;
+		height: 40px;
+		font-size: 16px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	#bannerelementos .arrowholder i:last-child{
+		margin-left: -3px;
+	}
+
+	#bannerelementos{
+		height: 422px;
+	}
+
+/* Maps */
+	.holdermaps{
+		display: flex;
+		justify-content: center;
+		width: 100%;
+		padding: 40px 0;
+		border-bottom: 2px solid #6c6d72;
+	}
+
+/* Destaque de sessões */
+
+	.box-eventos{
+		margin: 10px auto;
+		display: flex;
+	}
+
+	.col-eventos{
+		flex: 1;
+		height: 360px;
+		display: flex;
+		flex-flow: column nowrap;
+		padding: 5px;
+	}
+
+	.box-destaques{
+		margin: 10px auto;
+		display: flex;
+	}
+
+	.col-destaques{
+		flex: 1;
+		height: 410px;
+		display: flex;
+		flex-flow: column nowrap;
+		padding: 5px;
+	}
+
+	.elemento-destaques{
+		position: relative;
+		width: calc(100% - 10px);
+		flex: 1;
+		margin: 5px;
+		transition: ease-in 0.2s;
+	}
+
+	.elemento-destaques:hover{
+		transform: scale(1.09);
+		z-index: 899;
+	}
+
+	.design-destaques{
+		background-size: contain;
+		background-repeat: no-repeat;
+		background-position: center;
+		width: 100%;
+		height: 100%;
+	}
+
+	.categoria-destaque{
+		position: absolute;
+		left: 0;
+		top: 0;
+		color: #ccc;
+		font-size: 16px;
+		font-weight: bold;
+		background: #000;
+		opacity: 0.7;
+		width: 100%;
+		padding: 10px 0 0 20px;
+		min-height: 48px;
+		text-transform: uppercase;
+	}
+
+	.titulo-destaque{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		color: #ccc;
+		font-size: 16px;
+		font-weight: bold;
+		background: #000;
+		opacity: 0.7;
+		width: 100%;
+		padding: 10px 0 0 20px;
+		margin-bottom: 0;
+		min-height: 48px;
+	}
+
+/* Lista Noticias */
+	.list-noticias {
+		width: 100%;
+		margin: auto 10px;
+	}
+
+	.box-noticia{
+		width: 100%;
+	}
+
+	.cabecalho-noticia{
+		width:100%;
+		font-size: 15px;
+		margin-bottom: 0px;
+		margin-top: 6px;
+	}
+
+	.titulo-noticia {
+		display: flex;
+		font-size: 16px;
+		overflow: hidden;
+	}
+
+/* Formularios */
+	.form-box{
+		width: 100%;
+		text-align: left;
+	}
+
+	.form-content{
+		width: 80%;
+		margin: 10px auto;
+	}
+
+	.form-field{
+		margin: 15px 0px;
+	}
+
+	/* tabelas */
+
+	.box-table{
+	  display: block;
+	}
+
+	.mb-table {
+		display: none;
+	}
+	
+	.box-table table {
+	  border-radius: 3px;
+	  background-color: #fff;
+	  width: 100%;
+	}
+
+
+	.box-table th {
+	  background-color: #fff;
+	  color: #000;
+	  font-size: 13px;
+	  cursor: pointer;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+	  opacity: 0.66;
+	}
+
+	.box-table tr {
+	  background-color: #fff;
+	  border-bottom: 2px solid #dddddd;
+	  padding: 3px 0px;
+	  font-size: 13px;
+	}
+
+	.box-table th, .box-table td {
+	  min-width: 120px;
+	  padding: 10px 20px;
+	}
+
+	.box-table th.active {
+	  color: #000;
+	  opacity: 1;
+	}
+
+	.box-table th.active .arrow {
+	  opacity: 1;
+	}
+
+	.box-table .arrow {
+	  display: inline-block;
+	  vertical-align: middle;
+	  width: 0;
+	  height: 0;
+	  margin-left: 5px;
+	}
+
+	.box-table .arrow.asc {
+	  border-left: 4px solid transparent;
+	  border-right: 4px solid transparent;
+	  border-bottom: 4px solid #000;
+	}
+
+	.box-table .arrow.dsc {
+	  border-left: 4px solid transparent;
+	  border-right: 4px solid transparent;
+	  border-top: 4px solid #000;
+	}
+
+	/*Paginacao*/
+	.pagination{
+		margin-top: 15px;
+		font-size: 13px;
+	}
+	.pagination .page-item .page-link{
+		color: #000;
+	}
+	.pagination .page-item.active .page-link{
+		background-color: #da1f28;
+		color: #fff;
+		border: 1px solid #dee2e6;
+	}
+	.pagination .page-item .page-link:active{
+		outline: none !important;
+   		box-shadow: none !important;
+	}
+	.pagination .page-item .page-link:focus{
+		outline: none !important;
+   		box-shadow: none !important;
+	}
+
+	/*Licitacao Tabela e Pesquisa*/
+	.spacebetween{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	#opentablesearch{
+		margin-right: 15px;
+		cursor: pointer;
+	}
+	.holderform-searchtable{
+		display: none;
+	}
+	.form-searchtable{
+		display: flex;
+		justify-content: space-around;
+		align-items: flex-start;
+		padding-top: 5px;
+		padding-bottom: 15px;
+		margin-bottom: 15px;
+	}
+
+	.form-searchtable:last-child {
+		border-bottom: 2px solid #6c6d72;
+	}
+	.holderinput-searchtable{
+		width: 20%;
+	}
+	.holderinput-searchtable input{
+		width: 100%;
+	}
+	.holderinput-searchtable select{
+		width: 100%;
+	}
+	.box-table table{
+		margin: 0 auto;
+	}
+	.box-table th{
+		background-color: #fff;
+	}
